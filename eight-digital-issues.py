@@ -193,6 +193,7 @@ def isin(s, sList):
 if __name__ == '__main__':
     start = time.clock()
 
+    # 前面是初始状态，后面是结束状态
     originState = State(np.array([[2, 0, 8], [1, 6, 3], [7, 5, 4]]),
                         np.array([[1, 2, 3], [8, 0, 4], [7, 6, 5]]))
 
